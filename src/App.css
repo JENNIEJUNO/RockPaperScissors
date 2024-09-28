@@ -1,0 +1,46 @@
+.container{
+  text-align:center;
+  font-size:4vh;
+}
+.main{
+  margin:auto;
+  width:70%;
+  height:75vh;
+  display:flex;
+}
+.box{
+  border:10px solid black;
+  width:50%;
+  height:100%;
+  box-sizing:border-box;
+  font-size:5vh;
+  font-weight:700;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+  align-items:center;
+}
+.box img{
+  width:70%;
+  height:65%;
+}
+.Win{
+  border:10px solid green;
+}
+.Lose{
+  border:10px solid red;
+}
+.buttonBox button{
+  font-size:5vh;
+  margin:1.5vh 0.5vw;
+  border:none;
+  background:none;
+  cursor:pointer;
+}
+
+.black-han-sans-regular {
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:rgb(237, 154, 168);
+}
